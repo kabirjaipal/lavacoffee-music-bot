@@ -24,5 +24,5 @@ Best Class Based Discord.js Handler </h1><br/>
 
 <br/>
 
-Some codes from [Lava Music](https://github.com/brblacky/lavamusic)
+Some codes from [Lava Music](https://github.com/brblacky/lavamusic)\
 If Any Bug Open Pull Request
