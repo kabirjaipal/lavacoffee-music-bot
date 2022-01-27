@@ -1,5 +1,5 @@
 <h1 align="center">
-Lavalink Discord Music Bot V13 </h1><br/>
+Lavalink Discord Music Bot  </h1><br/>
 
 ## **Installation | How to use the Bot**
 
