@@ -48,12 +48,15 @@ module.exports = new Command({
       let player = manager.get(interaction.guildId);
       if (!player)
         player = manager.create({
-          guild: interaction.guildId,
-          voiceChannel: channel.id,
-          textChannel: interaction.channelId,
+          guildID: interaction.guildId,
+          voiceID: channel.id,
           volume: 80,
-          selfDeafen: true,
+          selfDeaf: true,
+          metadata: {
+            text: interaction.channelId,
+          },
         });
+
       if (!player.voiceConnected) await player.connect();
 
       const but = new MessageButton()
