@@ -29,11 +29,6 @@ const client = new Client({
     Intents.FLAGS.DIRECT_MESSAGE_REACTIONS,
     //Intents.FLAGS.DIRECT_MESSAGE_TYPING
   ],
-  ws: {
-    properties: {
-      $browser: "Discord Android",
-    },
-  },
 });
 module.exports = client;
 
